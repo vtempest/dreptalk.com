@@ -33,12 +33,12 @@ cfg.d1_databases = [
   {
     binding: 'DB',
     database_name: 'dreptalk-preprod',
-    database_id: 'adf2310b-b1c1-415a-b900-28dd56277cbb',
+    database_id: '589dfd1d-4798-4647-af95-a176b0ff1a48',
     migrations_dir: 'migrations',
   },
 ];
 cfg.kv_namespaces = [
-  { binding: 'SESSIONS', id: 'be3d778c8ee3431dadb0aecb8275ed61' },
+  { binding: 'SESSIONS', id: 'f4f8f1113163428c91168e1943278ece' },
 ];
 cfg.r2_buckets = [{ binding: 'AVATARS', bucket_name: 'dreptalk-avatars-preprod' }];
 

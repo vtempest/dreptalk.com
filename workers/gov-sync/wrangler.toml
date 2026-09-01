@@ -19,7 +19,7 @@ enabled = true
 [[d1_databases]]
 binding = "DB"
 database_name = "dreptalk"
-database_id = "4a84966c-9fde-49f7-bfed-9c3c927e5db3"
+database_id = "6283d688-8e7e-4cff-86d2-b0d4c6847e3e"
 migrations_dir = "../../migrations"
 
 # R2 bucket for self-hosted DRep avatars; written by the drep-sync avatar pass.
@@ -73,7 +73,7 @@ VAPID_PUBLIC_KEY = "BP8lsNXkOYQipYvkb5iBFeXOlDdkcDrlC7Dqbgw3e1bNd9UhgF3KdbpjHCwE
 [[env.preprod.d1_databases]]
 binding = "DB"
 database_name = "dreptalk-preprod"
-database_id = "adf2310b-b1c1-415a-b900-28dd56277cbb"
+database_id = "589dfd1d-4798-4647-af95-a176b0ff1a48"
 migrations_dir = "../../migrations"
 
 [[env.preprod.r2_buckets]]
